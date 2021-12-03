@@ -9,5 +9,6 @@ public class MockGatewayService implements GatewayPagamento {
 
     @Override
     public void efetuarPagamento(String numeroCartao, BigDecimal valor) {
+        System.out.println("[Mock] pagamento efetuado com sucesso!");
     }
 }

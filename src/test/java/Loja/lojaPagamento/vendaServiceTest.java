@@ -18,10 +18,10 @@ public class vendaServiceTest {
         venda.setPrecoUnitario(new BigDecimal(109.5));
 
 
-        //VendaService vendaService = new VendaService(new PagSeguroService("86727hsjba2342shj3432au826178828"));
-        VendaService vendaService = new VendaService(new PicPayService("Matheus", "gigli_@hotmail.com"));
-        //VendaService vendaService2 = new VendaService(new PayPalService("Matheus", "123"));
-        //VendaService vendaService2 = new VendaService(new MockGatewayService());
-        vendaService.registrar(venda, "4020302310203039");
+//      VendaService vendaService = new VendaService(new PagSeguroService("86727hsjba2342shj3432au826178828"));
+//      VendaService vendaService = new VendaService(new PicPayService("gigli_@hotmail.com", "1234"));
+//      VendaService vendaService = new VendaService(new PayPalService("matheusg", "123"));
+//        VendaService vendaService = new VendaService(new MockGatewayService());
+//      vendaService.registrar(venda, "4020302310203039");
     }
 }
